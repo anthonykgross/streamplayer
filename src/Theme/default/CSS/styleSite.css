@@ -1,0 +1,290 @@
+@CHARSET "UTF-8";
+
+/*BALISES****************/
+h1, h2{ 
+    display: inline; 
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+a, a:visited, a:active, a:link {
+    text-decoration: none;
+    color: #888;
+    border: none;
+}
+
+a:hover, #menuGauche #identityCard #tweets .tweet a:hover, #contenu b {
+    color: dodgerblue;
+    text-shadow: 0px 0px 10px #999;
+}
+
+img{
+    border: none;
+}
+
+ul, p, dd, dl, dt {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+/***********************/
+
+body{
+    background-image: url('../Images/bg.png');
+    background-repeat:no-repeat;
+    background-position: center top;
+    background-color: #396D7E;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    color: #2a2a2a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+#header{
+    padding-top: 30px;
+    height: 60px;
+    width: 100%;
+    text-align: right;
+}
+
+#header a img{
+    float: right;        
+    margin-right: 2%;
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 5px;
+}
+
+#header a img:hover{
+    box-shadow: 0px 0px 10px #FFF;
+}
+#menuGauche{
+    height: 100%;
+    width: 25%;
+    background-color: #2a2a2a;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    padding: 0 2.5% 0 1%;
+    margin-top: 1.5%;
+    color: white; 
+}
+
+#menuGauche #logo{
+    padding: 5% 0 10% 0;
+    text-align: center;
+    font-family: 'Cabin Sketch','Impact', cursive;
+    font-size: 48px;
+    width: 100%;
+}
+#menuGauche #logo a{
+    color: #999;
+}
+#menuGauche #logo span{
+    color: #DDD;
+}
+#menuGauche .subMenu{
+    width: 100%;
+    background-color: #444;
+    padding: 2% 2% 2% 2%;
+    margin-bottom: 2%;
+}
+#menuGauche .subMenu h2{
+   color: #DDD;
+}
+
+/********************************/
+#menuGauche .subMenu h2, #menuHaut .lienMenuHaut, #contenu h1{
+    font-family: 'Love Ya Like A Sister','Georgia', cursive;
+    font-size: 18px;
+}
+/********************************/
+#menuGauche .subMenu div{
+    border-top: 1px dashed #666;
+    padding-top: 2%;
+}
+#menuGauche .subMenu img{
+    vertical-align: baseline;
+    margin-right: 2%;
+}
+
+#menuGauche #identityCard #profile img{
+    float: right;
+    width: 30%;
+    margin-right: 0%;
+    border: 1px solid #666;
+}
+#menuGauche #identityCard dl{
+    font-size: 12px;
+    line-height: 15px;
+}
+#menuGauche #identityCard dt{
+    color: #999;
+}
+#menuGauche #identityCard dd{
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+#menuGauche .subMenu #tweets .tweet{
+    padding: 2% 2% 2% 10%;
+    line-height: 20px;
+    text-align: justify;
+    color: #ccc;
+}
+
+#menuGauche .subMenu #listePartenaire li, #menuGauche #identityCard dl{
+    padding-left: 10%;
+}
+
+#menuGauche .subMenu #listePartenaire li{
+    list-style-type: none;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+#toolbar{
+    padding-left: 1.5%;
+    height: 55px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    overflow: auto;
+    margin: 1.5% 0 0 0;
+}
+
+#toolbar #search{
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#toolbar #search img{
+    vertical-align: middle; 
+}
+#toolbar #search input{
+    border: 1px solid #CCC; 
+    height: 23px;
+    color: #2a2a2a;
+    font-style: italic;
+}
+
+#toolbar #search input:focus{
+    background-color: #EEE;
+}
+
+#toolbar #search .font-size-down, #toolbar #search .font-size-up, #toolbar #search .font-size-downx , #toolbar #search .font-size-upx {
+    font-weight: bold;
+    font-size: x-large;
+    vertical-align: middle;
+    margin-right: 1%;
+}
+#toolbar .addthis_toolbox{
+    margin-top: 2%;
+    float: left;
+}
+#toolbar .addthis_toolbox img{
+    vertical-align: middle;
+}
+
+#centrale{
+    padding: 1% 0 0 1.5%;
+    text-align: justify;
+    height: 100%;
+    border-top: 1px dashed #DDD;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+#contenu{
+    padding-bottom: 2%;
+    padding-right: 2%;
+    min-height: 380px;
+    
+}
+
+#contenu .messageAvertissement0, #contenu .messageAvertissement1 {
+    font-weight: bold;
+}
+#contenu .messageAvertissement0{
+    color: red;
+}
+#contenu .messageAvertissement1{
+    color: green;
+}
+#contenu ul, #contenu li{
+    margin-left: 1.5%
+}
+
+#contenu textarea{
+    border : 1px solid #CCC;
+    width: 50%;
+    height: 200px;
+}
+
+#contenu h1{
+    font-size: xx-large;
+    color: dodgerblue;
+}
+
+#toolbar, #centrale{
+    background-color: #EDEDED;
+}
+
+#menuGauche, #toolbar, #centrale {
+
+}
+
+.spacer{
+    clear:both;
+}
+
+#footer, #menuHaut{
+    width: 600px;
+}
+#corps, #header, #footer, #menuHaut{
+    margin: auto;
+}
+#corps, #header{
+    width: 1000px;
+}
+
+#corps{
+    background-color: #2a2a2a;
+    box-shadow: 0px 0px 20px #000;
+    border-radius: 15px;
+}
+
+#menuHaut{
+    height: 30px;
+    border-bottom-radius: 15px;
+    padding-top: 1%;
+}
+
+#menuHaut .lienMenuHaut{
+    margin-top: 0.5%;
+    width: 25%;
+    float: left;
+    font-size: x-large;
+}
+
+#footer, #menuHaut{
+    font-size: 10px;
+    background-color: #444;
+    margin-top: 1%;
+    box-shadow: 0px 0px 20px #000;
+    text-align: center;
+}
+
+#footer{
+    border-top-radius: 15px;
+    line-height: 15px;
+}
+
+#footer .lienFooter{
+    margin-top: 0.5%;
+    width: 16.5%;
+    float: left;
+}
+
+#footer #copyright{
+    color: #DDD;
+}

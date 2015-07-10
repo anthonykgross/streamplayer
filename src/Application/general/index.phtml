@@ -1,0 +1,26 @@
+<h1>Radios</h1>
+
+<div>
+    <?php
+    if ($this->monControle->idRadio) {
+        ?>
+        <script>
+            $(document).ready(function(){
+                afficheRadio('<?php echo $this->monControle->idRadio; ?>');
+            })
+        </script>
+        <?php
+    }
+    foreach ($this->monControle->lstRadio as $radio) {
+        ?>
+        <a href="<?php echo $radio->getUrl(); ?>-r<?php echo $radio->getIdRadio(); ?>.html">
+            <div class="uneRadio" id="<?php echo $radio->getIdRadio(); ?>">
+                <div class="titleRadio"><?php echo $radio->getNom(); ?></div>
+                <div class="imgRadio"><img src="<?php echo URL_THEME_CHOISI; ?>Images/radios/radio<?php echo $radio->getIdRadio(); ?>.png"/></div>
+            </div>
+        </a>
+        <?php
+    }
+    ?>
+    <div class="spacer"></div>
+</div> 

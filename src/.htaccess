@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+RewriteRule ^([^=]*)-r([0-9]+).html$ index.php?id=$2 [QSA,L,NC]

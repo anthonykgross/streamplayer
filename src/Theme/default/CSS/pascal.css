@@ -1,0 +1,112 @@
+/*
+Skin Name: Pascal Theme
+Skin URI: http://nivo.dev7studios.com
+Skin Type: fixed
+Image Width: 630
+Image Height: 235
+Description: A nice, light skin for the Nivo Slider.
+Version: 1.0
+Author: Gilbert Pellegrom & Pascal Gartner
+Author URI: http://dev7studios.com
+*/
+.theme-default #slider {
+    margin:100px auto 0 auto;
+    width:618px; /* Make sure your images are the same size */
+    height:246px; /* Make sure your images are the same size */
+}
+.theme-pascal.slider-wrapper,
+.theme-orman.slider-wrapper {
+    margin-top:150px;
+}
+.theme-pascal.slider-wrapper {
+    background:url(../Images/slider.png) no-repeat;
+    width:668px;
+    height:299px;
+    margin:0 auto;
+    padding-top:17px;
+    position:relative;
+}
+
+.theme-pascal .nivoSlider {
+    position:relative;
+    width:630px;
+    height:235px;
+    margin-left:19px;
+    background:url(../Images/loading.gif) no-repeat 50% 50%;
+}
+.theme-pascal .nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+    width:630px; /* Make sure your images are the same size */
+    height:235px; /* Make sure your images are the same size */
+}
+.theme-pascal .nivoSlider a {
+    border:0;
+    display:block;
+}
+
+.theme-pascal .nivo-controlNav {
+    background:url(../Images/controlnav.png) no-repeat;
+    width:251px;
+    height:40px;
+    position:absolute;
+    left:200px; /* Tweak this to center bullets */
+    bottom:-42px;
+    padding:10px 0 0 52px;
+    z-index:20;
+}
+.theme-pascal .nivo-controlNav a {
+    display:block;
+    width:10px;
+    height:10px;
+    background:url(../Images/bullets.png) no-repeat;
+    text-indent:-9999px;
+    border:0;
+    margin-right:3px;
+    float:left;
+}
+.theme-pascal .nivo-controlNav a.active {
+    background-position:0 -10px;
+}
+
+.theme-pascal .nivo-directionNav a {
+	display:none;
+}
+
+.theme-pascal .nivo-caption {
+    bottom:6%;
+    left:auto;
+    right:0px;
+    width:100%;
+    max-width:630px;
+    overflow:hidden;
+    background:#fff;
+    text-shadow:none;
+    font-family: arial, serif;
+    color:#4c4b4b;
+}
+.theme-pascal .nivo-caption p {
+    padding:5px 15px;
+    color:#333;
+    font-weight:bold;
+    font-size:27px;
+    text-transform:uppercase;
+}
+.theme-pascal .nivo-caption a { 
+    color:#333;
+    font-weight:bold;
+    font-size:27px;
+    text-transform:uppercase;
+}
+
+.theme-pascal .ribbon {
+    background:url(../Images/ribbon.png) no-repeat;
+    width:111px;
+    height:111px;
+    position:absolute;
+    top:-8px;
+    left:-8px;
+    z-index:300;
+}
