@@ -16,8 +16,8 @@ define('GOOGLE_ANALYTIC', "
 </script>  
     ");
 
-    define('EMAIL',                 'anthony_gross@kkuet.net');
-    define('TITRE_SITE',            "Streamplayer.Kkuet.net - ");
+    define('EMAIL',                 'anthony.k.gross@gmail.com');
+    define('TITRE_SITE',            "streamplayer.anthonykgross.fr - ");
     
     define('DEFAULT_THEME',         'default/');
     
