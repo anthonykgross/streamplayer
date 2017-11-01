@@ -14,13 +14,13 @@
         <!--  -->
         
         <link rel="icon" href="<?php echo URL_THEME_CHOISI; ?>Images/favicon.ico" type="image/x-icon" />
-        <link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Cabin+Sketch:700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Cabin+Sketch:700' rel='stylesheet' type='text/css'>
         <link href="<?php echo URL_THEME_CHOISI; ?>CSS/styleSite.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo URL_THEME_CHOISI; ?>CSS/pascal.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo URL_THEME_CHOISI; ?>CSS/nivo-slider.css" rel="stylesheet" type="text/css" />
         <?php echo $this->genereCSS(); ?>
 
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 <!--        <script type="text/javascript" src="http://www.balafr3.net/Javascript/jquery.corner.js"></script> -->
         <script type="text/javascript" src="<?php echo URL_THEME_CHOISI. 'Javascript/swfobject.js'; ?>"></script>
         <script type="text/javascript" src="<?php echo URL_THEME_CHOISI. 'Javascript/general.js'; ?>"></script>

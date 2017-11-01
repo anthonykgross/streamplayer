@@ -7,7 +7,7 @@
     <a class="addthis_button_print"></a>
 </div>
 
-<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4d04a80e7f7ba19e"></script>
+<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4d04a80e7f7ba19e"></script>
 <!-- AddThis Button END -->
 
 <div id="search">
