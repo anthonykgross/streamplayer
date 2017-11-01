@@ -80,7 +80,7 @@ define('GOOGLE_ANALYTIC', "
 
     $_SESSION['lang']               = (isset($_SESSION['lang']))?$_SESSION['lang']:LANG_DEFAULT;
     
-    define('URL',                   str_replace('index.php', '', 'http://'.$_SERVER["HTTP_HOST"].$_SERVER['SCRIPT_NAME']));
+    define('URL',                   str_replace('index.php', '', 'https://'.$_SERVER["HTTP_HOST"].$_SERVER['SCRIPT_NAME']));
     define('URL_THEME_CHOISI',      URL.THEME_CHOISI);
     define('URL_APPLICATION',       URL.APPLICATION);
 ?>
